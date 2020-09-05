@@ -2,4 +2,38 @@ $react-github-corner-options: () !default;
 
 .react-github-corner {
   // your styles
+
+  &:hover {
+    .octo-arm {
+      animation: octocat-wave 560ms ease-in-out;
+    }
+    svg {
+      fill: darken(#fd6c6c, 5%);
+    }
+  }
+
+  @keyframes octocat-wave {
+    0%,
+    100% {
+      transform: rotate(0);
+    }
+    20%,
+    60% {
+      transform: rotate(-25deg);
+    }
+    40%,
+    80% {
+      transform: rotate(10deg);
+    }
+  }
+
+  svg {
+    fill: #fd6c6c;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
+    transition: 0.2s all;
+  }
 }
