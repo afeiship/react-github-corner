@@ -33,9 +33,9 @@ npm update @feizheng/react-github-corner
   ```
 2. import js
   ```js
-  import ReactGithubCorner from '@feizheng/react-github-corner';
-  import ReactDOM from 'react-dom';
   import React from 'react';
+  import ReactDOM from 'react-dom';
+  import ReactGithubCorner from '@feizheng/react-github-corner';
   import './assets/style.scss';
 
   class App extends React.Component {
@@ -43,7 +43,7 @@ npm update @feizheng/react-github-corner
     render() {
       return (
         <div className="app-container">
-          <ReactGithubCorner />
+          <ReactGithubCorner value="https://github.com/afeiship" />
         </div>
       );
     }

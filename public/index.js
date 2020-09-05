@@ -1,6 +1,6 @@
-import ReactGithubCorner from '../src/main';
-import ReactDOM from 'react-dom';
 import React from 'react';
+import ReactDOM from 'react-dom';
+import ReactGithubCorner from '../src/main';
 import './assets/style.scss';
 
 class App extends React.Component {
@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app-container">
-        <ReactGithubCorner />
+        <ReactGithubCorner value="https://github.com/afeiship" />
       </div>
     );
   }
