@@ -11,11 +11,6 @@
 npm install -S @jswork/react-github-corner
 ```
 
-## update
-```shell
-npm update @jswork/react-github-corner
-```
-
 ## properties
 __GENERATE_DOCS__
 
