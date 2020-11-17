@@ -8,7 +8,7 @@
 
 ## installation
 ```shell
-npm install @jswork/react-github-corner
+npm install -S @jswork/react-github-corner
 ```
 
 ## properties
